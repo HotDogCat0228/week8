@@ -1,0 +1,27 @@
+.writing-mode-rl{
+  writing-mode: vertical-rl;
+}
+.no-flex-shrink {
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.object-fit-cover  {
+  object-fit: cover;
+}
+.object-position-top  {
+  object-position:top;
+} 
+
+.carousel-indicators{
+  bottom:-50px;
+}
+.swiper-btn{
+  width: 8px !important;
+  height: 8px !important;
+}
+.bg-black.active{
+  width: 16px !important;
+  height: 8px !important;
+  background-color: $primary !important;
+}

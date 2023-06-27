@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%- title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-0 border-bottom border-2">
+      <div class="container">
+        <!-- logo -->
+        <h1><a class="overflow-hidden" style="width: 190px; height: 40px;" href="./index.html"><img src="./assets/images/logo.svg" alt="">NFT藝術家交易平台</a></h1>
+
+        <div class="collapse navbar-collapse flex-md-row-reverse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item px-12 py-8 border-end">
+              <a class="nav-link text-dark" href="#">探索</a>
+            </li>
+            <li class="nav-item px-12 py-8 border-end">
+              <a class="nav-link" href="#">市值</a>
+            </li>
+            <li class="nav-item ps-12 py-8">
+              <a class="nav-link" href="#"><i class="fa-solid fa-wallet fa-xl" ></i></a>
+            </li>
+          </ul>
+          <form class="d-flex px-10 py-8 border-start border-end">
+            <input class="form-control bg-light border-0" type="search" placeholder="搜尋作品名稱、藝術家名稱" aria-label="Search" style="width: 288px;">
+            <button class="border-0" type="submit"><i class="fa-solid fa-magnifying-glass  fa-xl fw-bold"></i></button>
+          </form>
+      </div>
+      </div>
+    </nav>
+
+    <%- contents %>
+
+    <footer class="footer bg-light border-top border-2 py-6 text-center">
+      © ART NFT. All Rights Reserved
+    </footer>
+    <script src="https://kit.fontawesome.com/5889607084.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>

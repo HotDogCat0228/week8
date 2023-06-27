@@ -1,0 +1,1 @@
+概念就跟 Bootstrap 的元件一樣，component 設計目的在於說，若一個元件會出現在多個頁面時，就合適將該區塊設計成 component。
