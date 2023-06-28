@@ -5,36 +5,46 @@ engine: ejs
 current: index
 ---
 <div class="container py-10">
-  <div class="d-flex border border-1">
-    <div class="bg-black p-6 text-white writing-mode-rl">
-      <p class="fs-6 m-0 d-flex align-items-center" style="width: 52px;"><span class="spacial-text fs-1 mb-4">Recommend</span>推 薦 系 列</p>
+  <div class="row g-0">
+    <div class="col-md-12">
+      <div class="d-flex border border-1">
+        <div class="bg-black p-6 text-white writing-mode-rl">
+          <p class="fs-6 m-0 d-flex align-items-center" style="width: 52px;"><span class="spacial-text fs-1 mb-4">Recommend</span>推 薦 系 列</p>
+        </div>
+        <img src="./assets/images/art01.jpg" alt="" width="756" height="500">
+        <div class="px-6 pt-20 pb-6 d-flex flex-column">
+          <p class="mb-2">Kemus Wu</p>
+          <p class="fs-1 fw-bold mb-6">瞳孔:流動的脈絡</p>
+          <p class="flex-grow-1">眼睛，總是吸引著我們的注意力，看、被看，也許眼睛裡有著從另一個世界看我們的世界。</p>
+          <button class="btn btn-triangle btn-white spacial-text no-flex-shrink py-2 px-12">MORE</button>
+        </div>
+      </div>
     </div>
-    <img src="./assets/images/art01.jpg" alt="" width="756" height="500">
-    <div class="px-6 pt-20 pb-6 d-flex flex-column">
-      <p class="mb-2">Kemus Wu</p>
-      <p class="fs-1 fw-bold mb-6">瞳孔:流動的脈絡</p>
-      <p class="flex-grow-1">眼睛，總是吸引著我們的注意力，看、被看，也許眼睛裡有著從另一個世界看我們的世界。</p>
-      <button class="btn btn-triangle btn-white spacial-text no-flex-shrink py-2 px-12">MORE</button>
+    <div class="col-md-6">
+      <div class="d-flex border-start border-bottom border-end">
+        <div class="flex-grow-1 px-6 pt-12 pb-6 d-flex flex-column">
+          <p class="mb-2">Joanne</p>
+          <p class="fs-2 fw-bold mb-6">海洋波度</p>
+          <p class="flex-grow-1">海洋的奧秘向我們揭示了深不可測的一面，它的深度——反映了我們的恐懼、同時也吸引著我們。</p>
+          <button class="btn btn-triangle spacial-text btn-white no-flex-shrink py-2 px-12">MORE</button>
+        </div>
+        <img class="object-fit-cover" src="./assets/images/art02.jpg" alt=""  height="340">
+      </div>
     </div>
-  </div>
-  <div class="d-flex border-start border-bottom border-end">
-    <div class="flex-grow-1 px-6 pt-12 pb-6 d-flex flex-column" style="width: 320px;">
-      <p class="mb-2">Joanne</p>
-      <p class="fs-2 fw-bold mb-6">海洋波度</p>
-      <p class="flex-grow-1">海洋的奧秘向我們揭示了深不可測的一面，它的深度——反映了我們的恐懼、同時也吸引著我們。</p>
-      <button class="btn btn-triangle spacial-text btn-white no-flex-shrink py-2 px-12">MORE</button>
-    </div>
-    <img class="object-fit-cover" src="./assets/images/art02.jpg" alt=""  height="340">
 
-    <div class="flex-grow-1 px-6 pt-12 pb-6 d-flex flex-column" style="width: 320px;">
-      <p class="mb-2">Michael</p>
-      <p class="fs-2 fw-bold mb-6">我家窗前的鳥</p>
-      <p class="flex-grow-1">家門前每天都有不同的小鳥，大多數的小鳥都有特殊能力，特殊能力是什麼我就不說了，希望大家能從作品感受到小鳥的快樂。</p>
-      <button class="btn btn-triangle spacial-text btn-white no-flex-shrink py-2 px-12">MORE</button>
+    <div class="col-md-6">
+      <div class="d-flex border-bottom border-end">
+        <div class="flex-grow-1 px-6 pt-12 pb-6 d-flex flex-column">
+          <p class="mb-2">Michael</p>
+          <p class="fs-2 fw-bold mb-6">我家窗前的鳥</p>
+          <p class="flex-grow-1">家門前每天都有不同的小鳥，大多數的小鳥都有特殊能力，特殊能力是什麼我就不說了，希望大家能從作品感受到小鳥的快樂。</p>
+          <button class="btn btn-triangle spacial-text btn-white no-flex-shrink py-2 px-12">MORE</button>
+        </div>
+        <img class="object-fit-cover" src="./assets/images/art21.jpg" alt="" height="340">
+      </div>
     </div>
-    <img class="object-fit-cover" src="./assets/images/art21.jpg" alt="" height="340">
+    
   </div>
-
 </div>
 <div class="container py-10">
   <h2 class="d-flex align-items-center position-relative border-bottom mb-12"><span class="fs-1 spacial-text fw-bold me-4">Ranking</span><p class="fs-4">市價排行榜</p>
@@ -158,12 +168,101 @@ current: index
 <div class="container py-10">
   <h2 class="d-flex align-items-center position-relative border-bottom mb-12"><span class="fs-1 spacial-text fw-bold me-4">Artwork</span><p class="fs-4">最新藝術品</p>
     <button class="btn btn-triangle spacial-text position-absolute border-0 bottom-0 end-0">more</button></h2>
+  <div class="row" data-masonry='{"percentPosition": true }'>
+    <div class="col-6 col-md-3 mb-4">
+      <div class="bg-white p-6 mb-4">
+      <img src="./assets/images/art09.jpg" alt="">
+      </div>
+      <p class="fw-bold pb-4 border-bottom">區塊戀-他的私生活</p>
+    </div>
+    <div class="col-6 col-md-3 mb-4">
+      <div class="bg-white p-6 mb-4">
+      <img src="./assets/images/art10.jpg" alt="">
+      </div>
+      <p class="fw-bold pb-4 border-bottom">夏娃的醜聞</p>
+    </div>
+    <div class="col-6 col-md-3 mb-4">
+      <div class="bg-white p-6 mb-4">
+      <img src="./assets/images/art02.jpg" alt="">
+      </div>
+      <p class="fw-bold pb-4 border-bottom">藍色啤酒海</p>
+    </div>
+    <div class="col-6 col-md-3 mb-4">
+      <div class="bg-white p-6 mb-4">
+      <img src="./assets/images/art11.jpg" alt="">
+      </div>
+      <p class="fw-bold pb-4 border-bottom">沒有人愛我</p>
+    </div>
+    <div class="col-6 col-md-3 mb-4">
+      <div class="bg-white p-6 mb-4">
+      <img src="./assets/images/art12.jpg" alt="">
+      </div>
+      <p class="fw-bold pb-4 border-bottom">不哭不哭眼淚是珍珠</p>
+    </div>
+    <div class="col-6 col-md-3 mb-4">
+      <div class="bg-white p-6 mb-4">
+      <img src="./assets/images/art03.jpg" alt="">
+      </div>
+      <p class="fw-bold pb-4 border-bottom">十分鐘就到</p>
+    </div>
+    <div class="col-6 col-md-3 mb-4">
+      <div class="bg-white p-6 mb-4">
+      <img src="./assets/images/art04.jpg" alt="">
+      </div>
+      <p class="fw-bold pb-4 border-bottom">我這樣有美嗎</p>
+    </div>
+    <div class="col-6 col-md-3 mb-4">
+      <div class="bg-white p-6 mb-4">
+      <img src="./assets/images/art27.jpg" alt="">
+      </div>
+      <p class="fw-bold pb-4 border-bottom">我真的受傷了</p>
+    </div>
+  </div>
 </div>
-
+<div class="container py-10">
+  <h2 class="fs-1 spacial-text fw-bold text-center mb-4">Join Us</h2>
+  <p class="fs-4 mb-10 text-center fw-bold">創建並出售你的藝術品</p>
+</div>
+<div class="border-top border-bottom border-3 py-2">
+  <div class="border-top border-bottom py-20">
+    <div class="container">
+    <ul class="list-unstyled row">
+      <div class="col-md-3">
+      <li class="text-center">
+        <i class="text-primary fa-solid fa-wallet fa-2xl"></i>
+        <h3 class="fs-5 mb-6 mt-4">設置你的錢包</h3>
+        <p class="">設置好您選擇的錢包後<br>點擊右上角的錢包圖標進行連接</p>
+      </li>
+      </div>
+      <div class="col-md-3">
+      <li class="text-center">
+        <i class="text-primary fa-solid fa-pen-ruler fa-2xl"></i>
+        <h3 class="fs-5 mb-6 mt-4">設置你的錢包</h3>
+        <p class="">設置好您選擇的錢包後<br>點擊右上角的錢包圖標進行連接</p>
+      </li>
+    </div>
+    <div class="col-md-3">
+      <li class="text-center">
+        <i class="text-primary fa-solid fa-icons fa-2xl"></i>
+        <h3 class="fs-5 mb-6 mt-4">設置你的錢包</h3>
+        <p class="">設置好您選擇的錢包後<br>點擊右上角的錢包圖標進行連接</p>
+      </li>
+    </div>
+    <div class="col-md-3">
+      <li class="text-center">
+        <i class="text-primary fa-solid fa-tags fa-2xl"></i>
+        <h3 class="fs-5 mb-6 mt-4">設置你的錢包</h3>
+        <p class="">設置好您選擇的錢包後<br>點擊右上角的錢包圖標進行連接</p>
+      </li>
+    </div>
+    </ul>
+  </div>
+  </div>
+</div>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Launch demo modal
-</button>
+</button> -->
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

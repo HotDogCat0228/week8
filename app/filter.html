@@ -1,0 +1,306 @@
+---
+title: 藝術品系列-篩選
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<div class="container py-10">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="bg-white border">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item border-0 border-bottom">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button fs-6 filter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          網路
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="form-check d-flex justify-content-between p-0">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    以太坊
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            </div>
+                            <div class="form-check d-flex justify-content-between p-0">                               
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    BNB 智能鏈
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item border-0 border-bottom">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button filter-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          狀態
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="form-check d-flex justify-content-between p-0">
+                                <label class="form-check-label" for="flexCheckDefaul">
+                                    僅展示
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefaul">
+                            </div>
+                            <div class="form-check d-flex justify-content-between p-0">                               
+                                <label class="form-check-label" for="flexCheckChecke">
+                                    拍賣中
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecke" checked>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item border-0 border-bottom">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="filter-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            價格
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="d-flex gap-3">
+                                <button type="button" class="p-2 d-block border-0 bg-white w-100">ETF</button>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item border-0 border-bottom">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="filter-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                              品種
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <div class="form-check d-flex justify-content-between p-0">
+                                <label class="form-check-label" for="bird1">
+                                    八哥
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird1">
+                            </div>
+                            <div class="form-check d-flex justify-content-between p-0">                               
+                                <label class="form-check-label" for="bird2">
+                                    虎皮鸚鵡
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird2">
+                            </div>
+                            <div class="form-check d-flex justify-content-between p-0">                               
+                                <label class="form-check-label" for="bird3">
+                                    太平鳥
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird3">
+                            </div>
+                            <div class="form-check d-flex justify-content-between p-0">                               
+                                <label class="form-check-label" for="bird4">
+                                    畫眉鳥
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird4">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 border-bottom">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="filter-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            鳥的數量
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <div class="form-check d-flex justify-content-between p-0">
+                                <label class="form-check-label" for="bird1">
+                                    八哥
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird1">
+                            </div>
+                            <div class="form-check d-flex justify-content-between p-0">                               
+                                <label class="form-check-label" for="bird2">
+                                    虎皮鸚鵡
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird2">
+                            </div>
+                            <div class="form-check d-flex justify-content-between p-0">                               
+                                <label class="form-check-label" for="bird3">
+                                    太平鳥
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird3">
+                            </div>
+                            <div class="form-check d-flex justify-content-between p-0">                               
+                                <label class="form-check-label" for="bird4">
+                                    畫眉鳥
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird4">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 border-bottom">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="filter-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            是否有花草
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <div class="form-check d-flex justify-content-between p-0">
+                                <label class="form-check-label" for="bird1">
+                                    八哥
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird1">
+                            </div>
+                            <div class="form-check d-flex justify-content-between p-0">                               
+                                <label class="form-check-label" for="bird2">
+                                    虎皮鸚鵡
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird2">
+                            </div>
+                            <div class="form-check d-flex justify-content-between p-0">                               
+                                <label class="form-check-label" for="bird3">
+                                    太平鳥
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird3">
+                            </div>
+                            <div class="form-check d-flex justify-content-between p-0">                               
+                                <label class="form-check-label" for="bird4">
+                                    畫眉鳥
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird4">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 border-bottom">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="filter-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            鳥的顏色
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <div class="form-check d-flex justify-content-between p-0">
+                                <label class="form-check-label" for="bird1">
+                                    八哥
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird1">
+                            </div>
+                            <div class="form-check d-flex justify-content-between p-0">                               
+                                <label class="form-check-label" for="bird2">
+                                    虎皮鸚鵡
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird2">
+                            </div>
+                            <div class="form-check d-flex justify-content-between p-0">                               
+                                <label class="form-check-label" for="bird3">
+                                    太平鳥
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird3">
+                            </div>
+                            <div class="form-check d-flex justify-content-between p-0">                               
+                                <label class="form-check-label" for="bird4">
+                                    畫眉鳥
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="bird4">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+        <div class="row mb-10">
+            <div class="col-md-7">
+                <div class="d-flex align-items-center mb-1">
+                    <img src="./assets/images/artist01.jpg" alt="" class="rounded-circle me-4 object-fit-cover object-position-center" style="width: 32px; height: 32px;">
+                    <p class="spacial-text">Michael</p>
+                </div>
+                <h3 class="fs-2 fw-bold mb-2">我家外面的鳥</h3>
+                <p>家門前每天都有不同的小鳥，大多數的小鳥都有特殊能力，特殊能力是什麼我就不說了，希望大家能從作品感受到小鳥的快樂。</p>
+            </div>
+            <div class="col-md-5">
+                <ul class="list-unstyled border bg-white d-flex mt-8 mb-10">
+                    <li class="flex-grow-1 px-2 py-4 text-center border-end">
+                        <p class="mb-2">項目</p>
+                        <p class="spacial-text fw-bold fs-3">6.4 k</p>
+                    </li>
+                    <li class="flex-grow-1 px-2 py-4 text-center border-end">
+                        <p class="mb-2">項目</p>
+                        <p class="spacial-text fw-bold fs-3">6.4 k</p>
+                    </li>
+                    <li class="flex-grow-1 px-2 py-4 text-center border-end">
+                        <p class="mb-2">項目</p>
+                        <p class="spacial-text fw-bold fs-3">6.4 k</p>
+                    </li>
+                    <li class="flex-grow-1 px-2 py-4 text-center">
+                        <p class="mb-2">項目</p>
+                        <p class="spacial-text fw-bold fs-3">6.4 k</p>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-white">最新上架<i class="ms-2 fa-solid fa-sort"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row" data-masonry='{"percentPosition": true }'>
+                <div class="col-6 col-md-4 mb-4">
+                  <div class="bg-white p-6 mb-4">
+                  <img src="./assets/images/art09.jpg" alt="">
+                  </div>
+                  <p class="fw-bold pb-4 border-bottom">區塊戀-他的私生活</p>
+                </div>
+                <div class="col-6 col-md-4 mb-4">
+                  <div class="bg-white p-6 mb-4">
+                  <img src="./assets/images/art10.jpg" alt="">
+                  </div>
+                  <p class="fw-bold pb-4 border-bottom">夏娃的醜聞</p>
+                </div>
+                <div class="col-6 col-md-4 mb-4">
+                  <div class="bg-white p-6 mb-4">
+                  <img src="./assets/images/art02.jpg" alt="">
+                  </div>
+                  <p class="fw-bold pb-4 border-bottom">藍色啤酒海</p>
+                </div>
+                <div class="col-6 col-md-4 mb-4">
+                  <div class="bg-white p-6 mb-4">
+                  <img src="./assets/images/art11.jpg" alt="">
+                  </div>
+                  <p class="fw-bold pb-4 border-bottom">沒有人愛我</p>
+                </div>
+                <div class="col-6 col-md-4 mb-4">
+                  <div class="bg-white p-6 mb-4">
+                  <img src="./assets/images/art12.jpg" alt="">
+                  </div>
+                  <p class="fw-bold pb-4 border-bottom">不哭不哭眼淚是珍珠</p>
+                </div>
+                <div class="col-6 col-md-4 mb-4">
+                  <div class="bg-white p-6 mb-4">
+                  <img src="./assets/images/art03.jpg" alt="">
+                  </div>
+                  <p class="fw-bold pb-4 border-bottom">十分鐘就到</p>
+                </div>
+                <div class="col-6 col-md-4 mb-4">
+                  <div class="bg-white p-6 mb-4">
+                  <img src="./assets/images/art04.jpg" alt="">
+                  </div>
+                  <p class="fw-bold pb-4 border-bottom">我這樣有美嗎</p>
+                </div>
+                <div class="col-6 col-md-4 mb-4">
+                  <div class="bg-white p-6 mb-4">
+                  <img src="./assets/images/art27.jpg" alt="">
+                  </div>
+                  <p class="fw-bold pb-4 border-bottom">我真的受傷了</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+</div>

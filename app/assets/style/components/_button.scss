@@ -1,5 +1,6 @@
 .btn{
     width: 132px;
+    height: 35px;
 }
 .btn-triangle  {
     position: relative;
@@ -30,4 +31,14 @@
     background-color: #E6553B;
     color: white;
     border: 1px solid black;
+  }
+  .filter-btn:focus{
+    border: 0;
+    background: #fff;
+    box-shadow: none;
+  }
+  .accordion-button:not(.collapsed) {
+    background: #fff;
+    border:0;
+    -webkit-box-shadow: none;
   }

@@ -1,0 +1,185 @@
+---
+title: 藝術家介紹頁 – 作品
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<div class="container py-10">
+    <div class="row">
+    <div class="col-md-9">
+        <div class="border d-flex">
+            <img class="object-fit-cover d-block" src="./assets/images/artist01.jpg" alt="" style="width: 416px;">
+            <div class="p-6">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h3 class="fs-1 fw-bold spacial-text">Michael</h3>
+                    <div class="d-flex">
+                        <i class="fa-brands fa-discord me-2"></i><i class="fa-brands fa-facebook me-2"></i><i class="fa-solid fa-globe me-2"></i><i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+                <p class="spacial-text mb-6">0x3ya666…88ef</p>
+                <p>Michael自小在山林長大，能夠與花草樹木大自然進行靈體溝通，創作題材常見大山、大水、花草與樹木，從日常生活出發，擁有個⼈獨樹⼀格的創作風格，作品觸及靈魂深處、探索未知宇宙，透過與大自然的溝通，探討著存在的本質。​</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <ul class="list-unstyled border h-100 d-flex flex-column">
+            <li class="flex-grow-1 py-4 px-6 border-bottom d-flex justify-content-between align-items-center">
+                <p>販售中</p>
+                <p class="spacial-text fs-2 fw-bold lh-1">168</p>
+            </li>
+            <li class="flex-grow-1 py-4 px-6 border-bottom d-flex justify-content-between align-items-center">
+                <p>地板價格</p>
+                <p class="spacial-text fs-2 fw-bold  lh-1">0.6 ETH</p>
+            </li>
+            <li class="flex-grow-1 py-4 px-6 border-bottom d-flex justify-content-between align-items-center">
+                <p>7 日成交</p>
+                <p class="spacial-text fs-2 fw-bold  lh-1">8.8 ETH</p>
+            </li>
+            <li class="flex-grow-1 py-4 px-6  d-flex justify-content-between align-items-center">
+                <p>30 日成交</p>
+                <p class="spacial-text fs-2 fw-bold  lh-1">23.1 ETH</p>
+            </li>
+        </ul>
+    </div>
+    </div>
+</div>
+<div class="container py-10">
+<ul class="nav nav-tabs mb-10" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link bg-light" id="artWorks-tab" data-bs-toggle="tab" data-bs-target="#artWorks" type="button" role="tab" aria-controls="home" aria-selected="true">
+            <div class="py-4 px-12 d-flex">
+                <p class="spacial-text fw-bold fs-1 lh-1">
+                    Art Works
+                </p>
+                <p class="fs-4 d-flex flex-column justify-content-end">
+                    系列作品
+                </p>
+            </div>
+        </button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link bg-light active" id="collection-tab" data-bs-toggle="tab" data-bs-target="#collection" type="button" role="tab" aria-controls="profile" aria-selected="false">
+            <div class="py-4 px-12 d-flex">
+                <p class="spacial-text fw-bold fs-1 lh-1">
+                    Collection
+                </p>
+                <p class="fs-4 d-flex flex-column justify-content-end">
+                    收藏品
+                </p>
+            </div>
+        </button>
+    </li>
+</ul>
+</div>
+<div class="tab-content">
+    <div class="tab-pane" id="artWorks" role="tabpanel" aria-labelledby="artWorks-tab">
+        <div class="container pb-10 mb-32">
+            <div class="pt-12 px-275 bg-white border mb-22">
+                <h3 class="fs-3 mb-4">追求者送我的花</h3>
+                <div class="position-relative">
+                    <div class="d-flex justify-content-between">
+                        <p class="me-20">我又沒有特別喜歡花，為什麼不給我現金就好，擺在那也不知道要幹嘛，只好畫起來看有沒有人要買，阿不然如果真的喜歡我，把這些都買回去八。</p>
+                        <div class="d-flex flex-column justify-content-end">
+                            <button type="button" class="btn btn-white btn-border spacial-text btn-triangle">more</button>
+                        </div>
+                    </div>
+                    <div class="box"  style="width: 263px; height: 270px;"></div>
+                    <div class="d-flex gap-3 position-absolute" style="bottom:-48px">
+                        <div class="bg-black p-2" style="width: 263px; height: 270px;">
+                            <img class="object-fit-cover h-100" src="./assets/images/art13.jpg" alt="">
+                        </div>
+                        <div class="bg-black p-2" style="width: 263px; height: 270px;">
+                            <img class="object-fit-cover h-100" src="./assets/images/art14.jpg" alt="">
+                        </div>
+                        <div class="bg-black p-2" style="width: 263px; height: 270px;">
+                            <img class="object-fit-cover h-100" src="./assets/images/art29.jpg" alt="">
+                        </div>
+                        <div class="bg-black p-2" style="width: 263px; height: 270px;">
+                            <img class="object-fit-cover h-100" src="./assets/images/art30.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-12 px-275 bg-white border">
+                <h3 class="fs-3 mb-4">我家窗前的鳥</h3>
+                <div class="position-relative">
+                    <div class="d-flex justify-content-between">
+                        <p class="me-20">家門前每天都有不同的小鳥，大多數的小鳥都有特殊能力，特殊能力是什麼我就不說了，希望大家能從作品感受到小鳥的快樂。</p>
+                        <div class="d-flex flex-column justify-content-end">
+                            <button type="button" class="btn btn-white btn-border spacial-text btn-triangle">more</button>
+                        </div>
+                    </div>
+                    <div class="box"  style="width: 263px; height: 270px;"></div>
+                    <div class="d-flex gap-3 position-absolute" style="bottom:-48px">
+                        <div class="bg-black p-2" style="width: 263px; height: 270px;">
+                            <img class="object-fit-cover h-100" src="./assets/images/art27.jpg" alt="">
+                        </div>
+                        <div class="bg-black p-2" style="width: 263px; height: 270px;">
+                            <img class="object-fit-cover h-100" src="./assets/images/art20.jpg" alt="">
+                        </div>
+                        <div class="bg-black p-2" style="width: 263px; height: 270px;">
+                            <img class="object-fit-cover h-100" src="./assets/images/art26.jpg" alt="">
+                        </div>
+                        <div class="bg-black p-2" style="width: 263px; height: 270px;">
+                            <img class="object-fit-cover h-100" src="./assets/images/art22.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane active" id="collection" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="container pb-10">
+            <div class="row" data-masonry='{"percentPosition": true }'>
+              <div class="col-6 col-md-3 mb-4">
+                <div class="bg-white p-6 mb-4">
+                <img src="./assets/images/art09.jpg" alt="">
+                </div>
+                <p class="fw-bold pb-4 border-bottom">區塊戀-他的私生活</p>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <div class="bg-white p-6 mb-4">
+                <img src="./assets/images/art10.jpg" alt="">
+                </div>
+                <p class="fw-bold pb-4 border-bottom">夏娃的醜聞</p>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <div class="bg-white p-6 mb-4">
+                <img src="./assets/images/art02.jpg" alt="">
+                </div>
+                <p class="fw-bold pb-4 border-bottom">藍色啤酒海</p>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <div class="bg-white p-6 mb-4">
+                <img src="./assets/images/art11.jpg" alt="">
+                </div>
+                <p class="fw-bold pb-4 border-bottom">沒有人愛我</p>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <div class="bg-white p-6 mb-4">
+                <img src="./assets/images/art12.jpg" alt="">
+                </div>
+                <p class="fw-bold pb-4 border-bottom">不哭不哭眼淚是珍珠</p>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <div class="bg-white p-6 mb-4">
+                <img src="./assets/images/art03.jpg" alt="">
+                </div>
+                <p class="fw-bold pb-4 border-bottom">十分鐘就到</p>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <div class="bg-white p-6 mb-4">
+                <img src="./assets/images/art04.jpg" alt="">
+                </div>
+                <p class="fw-bold pb-4 border-bottom">我這樣有美嗎</p>
+              </div>
+              <div class="col-6 col-md-3 mb-4">
+                <div class="bg-white p-6 mb-4">
+                <img src="./assets/images/art27.jpg" alt="">
+                </div>
+                <p class="fw-bold pb-4 border-bottom">我真的受傷了</p>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
